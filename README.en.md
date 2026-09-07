@@ -1,5 +1,7 @@
 # Tweet Buffer Workflow
 
+**English | [中文](README.md)**
+
 A reusable Skill that turns supplied material into X-ready posts and sends them to Buffer only after explicit review.
 
 ## Install
@@ -34,4 +36,4 @@ After review, choose `Draft`, `进入队列` (queue), `队列置顶` (prioritize
 
 The Skill contains no Telegram token, Buffer key, model API key, database, or runtime service code. Before an external write, confirm the target channel, final text, and action. If a publish result is uncertain, inspect Buffer before retrying.
 
-See [`references/workflow.md`](references/workflow.md) for detailed rules, [`ARTICLE.md`](ARTICLE.md) for the Chinese usage article, and [`README.md`](README.md) for the Chinese quick start.
+See [`references/workflow.md`](references/workflow.md) for detailed rules and [`ARTICLE.md`](ARTICLE.md) for the Chinese usage article.

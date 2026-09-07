@@ -1,5 +1,7 @@
 # Tweet Buffer Workflow
 
+**中文 | [English](README.en.md)**
+
 一个把原始素材改写成 X 推文，并在明确审核后交给 Buffer 的可复用 Skill。
 
 ## 安装
@@ -34,4 +36,4 @@ $tweet-buffer-workflow
 
 Skill 不包含 Telegram Token、Buffer Key、模型 API Key、数据库或运行代码。外部写入前必须确认目标频道、最终文本和动作；发布结果不确定时先去 Buffer 核对，不要直接重试。
 
-详细规则见 [`references/workflow.md`](references/workflow.md)，中文使用文章见 [`ARTICLE.md`](ARTICLE.md)，英文说明见 [`README.en.md`](README.en.md)。
+详细规则见 [`references/workflow.md`](references/workflow.md)，中文使用文章见 [`ARTICLE.md`](ARTICLE.md)。
