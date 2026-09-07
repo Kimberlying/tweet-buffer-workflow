@@ -1,0 +1,7 @@
+interface:
+  display_name: "Tweet Buffer Workflow"
+  short_description: "把原始素材改写成 X 推文并安全交给 Buffer 审核与发布"
+  default_prompt: "Use $tweet-buffer-workflow to turn the supplied material into a reviewed X post and prepare the requested Buffer action."
+
+policy:
+  allow_implicit_invocation: true
